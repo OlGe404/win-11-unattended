@@ -9,7 +9,7 @@ Web:
 * https://www.microsoft.com/de-de/software-download/windows11
 * https://schneegans.de/windows/unattend-generator/
 
-# How to
+# 💡 How to
 A generic template for the autounattend.xml file was generated with the help of [schneegans.de](https://schneegans.de/windows/unattend-generator/) and checked in as [autounattend_template.xml](autounattend_template.xml).
 
 Some values in the template are provided as placeholders. To use the template, create a file named ``autounattend.xml``, copy the templates content into it and replace all placeholders with the actual value you want to use for the Windows 11 installation.
