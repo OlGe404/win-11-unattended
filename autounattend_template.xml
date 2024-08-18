@@ -365,6 +365,8 @@
 			<OOBE>
 				<ProtectYourPC>3</ProtectYourPC>
 				<HideEULAPage>true</HideEULAPage>
+				<SkipUserOOBE>true</SkipUserOOBE>
+				<SkipMachineOOBE>true</SkipMachineOOBE>
 			</OOBE>
 			<FirstLogonCommands>
 				<SynchronousCommand wcm:action="add">
