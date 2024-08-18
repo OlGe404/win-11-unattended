@@ -1,7 +1,7 @@
 # Win-11-unattended
 Create config files for unattended Windows 11 Home installations.
 
-## Sources
+## 🧾 Sources
 YouTube:
 * https://www.youtube.com/watch?v=JUTdRZNqODY
 
@@ -25,7 +25,7 @@ Next, copy the ``autounattend.xml`` file inside the root folder of your windows 
 
 ![image_1](image_1.png)
 
-## Versioning
+## 📖 Versioning
 Versioning is done by creating annotated git tags (https://git-scm.com/book/en/v2/Git-Basics-Tagging).
 
 ```bash
