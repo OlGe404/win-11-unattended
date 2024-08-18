@@ -20,3 +20,17 @@ Some values were not provided in clear text, but placeholders. Search for the pl
 | AdminAccountPassword | Password for the windows account. |
 | WifiSid              | WLAN SID to automatically connect to. |
 | WifiPassword         | Password for the WLAN to connect to. |
+
+
+## Versioning
+Versioning is done by creating annotated git tags.
+
+Create a new tag with
+
+```bash
+git tag # list existing tags
+git tag -a "vX.Y.Z" -m "Message" # create a new annotated tag
+git tag -d <tag> # delete a tag locally
+git push --tags origin <tag> # delete a tag from remote, too
+git push origin --tags # push all tags
+```
