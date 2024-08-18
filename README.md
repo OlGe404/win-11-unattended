@@ -1,8 +1,7 @@
 # Win-11-unattended
-Config files for unattended Windows 11 installations
+Create config files for unattended Windows 11 Home installations.
 
 ## Sources
-
 YouTube:
 * https://www.youtube.com/watch?v=JUTdRZNqODY
 
@@ -11,26 +10,32 @@ Web:
 * https://schneegans.de/windows/unattend-generator/
 
 # How to
-A generic autounattend.xml file was generated with the help of [schneegans.de](https://schneegans.de/windows/unattend-generator/).
-Some values were not provided in clear text, but placeholders. Search for the placeholders and overwrite them with the value to use before using the autounattend.xml file.
+A generic template for the autounattend.xml file was generated with the help of [schneegans.de](https://schneegans.de/windows/unattend-generator/) and checked in as [autounattend_template.xml](autounattend_template.xml).
+Some values in the template are not provided with their actual value, but placeholders. To use the template, create a file named autounattend.xml, copy the templates content into it and replace all placeholders with the actual value you want to use for the installation. Next, place the autounattend.xml file in your Windows installation media root folder and you're done.
 
-| Placeholder          | Purpose |
-| -------------------- | ------- |
+| Placeholder          | Purpose                                        |
+| -------------------- | ---------------------------------------------- |
 | AdminAccountName     | Windows account to create during installation. |
-| AdminAccountPassword | Password for the windows account. |
-| WifiSid              | WLAN SID to automatically connect to. |
-| WifiPassword         | Password for the WLAN to connect to. |
-
+| AdminAccountPassword | Password for the windows account.              |
+| WifiSid              | WLAN SID to automatically connect to.          |
+| WifiPassword         | Password for the WLAN to connect to.           |
 
 ## Versioning
-Versioning is done by creating annotated git tags.
-
-Create a new tag with
+Versioning is done by creating annotated git tags (https://git-scm.com/book/en/v2/Git-Basics-Tagging).
 
 ```bash
-git tag # list existing tags
-git tag -a "vX.Y.Z" -m "Message" # create a new annotated tag
-git tag -d <tag> # delete a tag locally
-git push --tags origin <tag> # delete a tag from remote, too
-git push origin --tags # push all tags
+# list existing tags
+git tag
+
+# create a new annotated tag
+git tag -a "vX.Y.Z" -m "Message"
+
+# delete a local tag
+git tag -d <tagname>
+
+# delete a tag from remote
+git push origin --delete <tagname>
+
+# push tags to remote
+git push origin --tags
 ```
