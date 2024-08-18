@@ -11,7 +11,9 @@ Web:
 
 # How to
 A generic template for the autounattend.xml file was generated with the help of [schneegans.de](https://schneegans.de/windows/unattend-generator/) and checked in as [autounattend_template.xml](autounattend_template.xml).
-Some values in the template are not provided with their actual value, but placeholders. To use the template, create a file named autounattend.xml, copy the templates content into it and replace all placeholders with the actual value you want to use for the installation. Next, place the autounattend.xml file in your Windows installation media root folder and you're done.
+
+Some values in the template are provided as placeholders. To use the template, create a file named autounattend.xml, copy the templates content into it and replace all placeholders with the actual value you want to use for the installation.
+Next, copy the autounattend.xml file inside the root folder of your windows installation media drive and you are ready to go.
 
 | Placeholder          | Purpose                                        |
 | -------------------- | ---------------------------------------------- |
