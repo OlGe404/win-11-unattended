@@ -15,12 +15,12 @@ A generic template for the autounattend.xml file was generated with the help of 
 Some values in the template are provided as placeholders. To use the template, create a file named autounattend.xml, copy the templates content into it and replace all placeholders with the actual value you want to use for the Windows 11 installation.
 Next, copy the autounattend.xml file inside the root folder of your windows installation media drive and you are ready to go (see image_1).
 
-| Placeholder          | Purpose                                        |
-| -------------------- | ---------------------------------------------- |
-| AdminAccountName     | Windows account to create during installation. |
-| AdminAccountPassword | Password for the windows account.              |
-| WifiSid              | WLAN SID to automatically connect to.          |
-| WifiPassword         | Password for the WLAN to connect to.           |
+| Placeholder            | Purpose                                      |
+| ---------------------- | -------------------------------------------- |
+| PhAdminAccountName     | Admin account to create during installation. |
+| PhAdminAccountPassword | Password for the windows account.            |
+| PhWifiSid              | WLAN SID to automatically connect to.        |
+| PhWifiPassword         | Password for the WLAN to connect to.         |
 
 ![image_1](image_1.png)
 
