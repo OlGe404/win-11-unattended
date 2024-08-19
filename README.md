@@ -18,10 +18,10 @@ Next, copy the ``autounattend.xml`` file inside the root folder of your windows 
 
 | Placeholder            | Purpose                                      |
 | ---------------------- | -------------------------------------------- |
-| PhAdminAccountName     | Admin account to create during installation. |
-| PhAdminAccountPassword | Password for the windows account.            |
-| PhWifiSid              | WLAN SID to automatically connect to.        |
-| PhWifiPassword         | Password for the WLAN to connect to.         |
+| PhAdminAccountName     | Initial admin account to create.             |
+| PhAdminAccountPassword | Password for the initial admin account.      |
+| PhWifiSid              | Wifi SID to connect to.                      |
+| PhWifiPassword         | Password for the Wifi to connect to.         |
 
 ![image_1](image_1.png)
 
