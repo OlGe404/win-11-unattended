@@ -5,9 +5,12 @@ Create config files for unattended Windows 11 Home installations.
 YouTube:
 * https://www.youtube.com/watch?v=JUTdRZNqODY
 
+GitHub:
+* https://github.com/memstechtips/UnattendedWinstall
+
 Web:
-* https://www.microsoft.com/de-de/software-download/windows11
 * https://schneegans.de/windows/unattend-generator/
+* https://www.microsoft.com/de-de/software-download/windows11
 
 # 💡 How to
 A generic template for the autounattend.xml file was generated with the help of [schneegans.de](https://schneegans.de/windows/unattend-generator/) and checked in as [autounattend_template.xml](autounattend_template.xml).
