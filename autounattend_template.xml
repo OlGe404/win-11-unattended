@@ -376,6 +376,11 @@
 					<Order>2</Order>
 					<CommandLine>powershell.exe -NoProfile -Command "Disable-ComputerRestore -Drive 'C:\';"</CommandLine>
 				</SynchronousCommand>
+				<SynchronousCommand wcm:action="add">
+					<Order>3</Order>
+					<Description>Disable Search Bar in Taskbar</Description>
+					<CommandLine>reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Search" /v "SearchboxTaskbarMode" /t REG_DWORD /d 0 /f</CommandLine>
+				</SynchronousCommand>
 			</FirstLogonCommands>
 		</component>
 	</settings>
